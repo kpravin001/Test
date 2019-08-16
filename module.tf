@@ -5,7 +5,7 @@ module "snapshot" {
   client_secret="0joJRCNWP=+B.e@nH4xsDE27=CSv+58M"
   tenant_id="154a555f-9dde-4aed-8873-eca8e68b38df"
   resource_group_name="kp_gp"
-  location="eastus"
+  location="$location"
 
   snapshot_name="snapshot_vm01"
   create_option="Copy"
